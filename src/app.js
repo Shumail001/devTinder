@@ -4,7 +4,7 @@ const express = require("express")
 const app = express()
 
 app.use("/test",(req,res) => {
-    res.end("Hello From Nodejs for testing")
+    res.end("Hello From Nodejs")
 })
 
 
